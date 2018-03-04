@@ -1,0 +1,40 @@
+body
+{
+	margin:0;
+	padding:0;
+	font:14px Arial, Helvetica, sans-serif;
+}
+form
+{
+	background-color:#F5F5F5;
+	padding:30px;
+	display:table;
+	margin:10px auto;
+	border-radius:5px;
+}
+form p
+{
+	padding:0;
+	color:#464646;
+	line-height: 15px;
+}
+form input,form textarea
+{
+	padding:8px 5px;
+	width:100%;
+	border:1px solid #ccc;
+	border-radius:5px;
+}
+form input[type="radio"]{
+	width: auto;
+}
+form input[type="submit"], button[type="submit"]
+{
+	width:auto;
+	float:right;
+	margin:5px 0 5px 5px;
+	padding:10px 15px;
+}
+form input[type="submit"]:active, button[type="submit"]:active {
+	font-weight:bold;
+}

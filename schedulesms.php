@@ -20,7 +20,7 @@ if (!$getbalance = file_get_contents($main_acct_balance_url)) {
 </head>
 <body>
    <form method="post" action="<?= API_URL ?>">
-		<h2>OrgDS.org</h2>
+		<h2>OrgDS.com.ng</h2>
 		<hr>
       <p><strong>Balance</strong> : <?= $getbalance; ?></p>
       <p><strong>Sender ID</strong> : <em style="font-size: 90%;">(Max length: <b>11</b>)</em><br />
